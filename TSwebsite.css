@@ -1,0 +1,97 @@
+/* ---ELEMENT SELECTORS--- */
+/* I added a background color to my website pages I changed my font style to Gill Sans using CSS. I added a padding of 20px on the body element; I addeda padding of 10px onthe h1 element; I added a padding of 5px on the h2 element */
+
+/* To connect my 3 different html pages, I added a link with the stylesheet name to the html code under the head tag. */
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(180deg, #a1e1f4, #6eadc0, #bbd2d9, #ffffff);
+}
+body {
+    margin: 1rem, 5rem;
+    padding: 20px;
+}
+h1 {
+    text-align: justify;
+    filter: drop-shadow(2px 2px 1px #0f6a9e);
+    padding: 5px;
+  }
+  h2 {
+    margin: 2rem auto 1rem auto;
+    text-align: left;
+    padding: 5px;
+  }
+  p,
+  li {
+    font-size: 20px;
+  }
+  ol {
+    padding: 20px;
+  }
+  
+  ol li {
+    padding: 10px 0;
+  }
+
+  /* I added radius corners and a box shadow to my 3 images. */
+
+  img {
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .5);
+  }
+
+  /* Class Selectors */
+
+
+  /* I added a CSS style to my links Home, About and Contact. I assigned different colors to the text based on whether the link was clicked on or not. See below. */
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+a:visited {
+    color: rgb(1, 24, 139);
+  }
+  
+/* mouse over link */
+a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+a:active {
+    color: blue;
+  }
+  a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+  }
+
+  /* I want to have the navigation links centered at the top and in the middle of the page. */
+.center-links {
+  text-align: center;
+}
+.link-space {
+  margin-inline: 1em;
+  text-decoration: none;
+}
+/* I'm using an id selector to bold the text on the About page at the bottom */
+#bold-text {
+  font-weight: bolder;
+}
+/* I'm using an id selector to make my table on the About page look a little more professional. */
+#workexamples td, #workexamples th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#workexamples th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #01488f;
+  color: white;
+}
